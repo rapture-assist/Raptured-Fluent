@@ -1,12 +1,18 @@
-local Library = loadstring(game:HttpGetAsync("https://github.com/ActualMasterOogway/Fluent-Renewed/releases/latest/download/Fluent.luau"))()
-local SaveManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/SaveManager.luau"))()
-local InterfaceManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/InterfaceManager.luau"))()
+local function Get(url)
+    return game:HttpGet(url)
+end
+
+local Library = loadstring(Get("https://raw.githubusercontent.com/rapture-assist/Raptured-Fluent/refs/heads/main/Src/Raptured-Fluent.luau"))()
+
+local InterfaceManager = loadstring(Get("https://raw.githubusercontent.com/rapture-assist/Raptured-Fluent/refs/heads/main/Addons/InterfaceManager.luau"))()
+
+local SaveManager = loadstring(Get("https://raw.githubusercontent.com/rapture-assist/Raptured-Fluent/refs/heads/main/Addons/SaveManager.luau"))()
  
 local Window = Library:CreateWindow{
     Title = `Fluent {Library.Version}`,
     SubTitle = "by Actual Master Oogway",
     TabWidth = 160,
-    Size = UDim2.fromOffset(830, 525),
+    Size = UDim2.fromOffset(830, 645),
     Resize = true, -- Resize this ^ Size according to a 1920x1080 screen, good for mobile users but may look weird on some devices
     MinSize = Vector2.new(470, 380),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
