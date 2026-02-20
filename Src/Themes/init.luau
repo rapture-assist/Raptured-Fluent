@@ -28,7 +28,6 @@ local Themes = {
 		"Kimbie Dark",
 		"Solarized Dark",
 		"Solarized Light",
-        "Test",
 		"DuoTone Dark Sea",
 		"DuoTone Dark Sky",
 		"DuoTone Dark Space",
