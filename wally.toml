@@ -1,8 +1,8 @@
 [package]
-name = "actualmasteroogway/fluent-renewed"
-version = "1.0.5"
-license = "MIT"
-authors = ["ActualMasterOogway"]
+name = "rapture-assist/Raptured-Fluent"
+version = "1.8"
+license = "Apache 2.0"
+authors = ["stxdev"]
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
