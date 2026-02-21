@@ -24,6 +24,7 @@ local Themes = {
 		"Monokai Vibrant",
 		"Monokai Dimmed",
 		"Typewriter",
+        "Theme11",
         "Dark Typewriter",
 		"Kimbie Dark",
 		"Solarized Dark",
